@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Card of illusion
+          Disillusion reel
         </p>
         <a
           className="App-link"
