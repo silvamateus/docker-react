@@ -4,4 +4,4 @@ services:
 before_install:
   - docker build -f Dockerfile.dev -t silvamateus/docker-react .
 script:
-  - docker run silvamateus/docker-react yarn test -- --coverage
+  - docker run silvamateus/docker-react CI=true yarn test -- --coverage
